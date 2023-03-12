@@ -1,0 +1,50 @@
+#1)Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+String (metin) veri tipleri → str
+
+Numerik (sayısal) veri tipleri → int, float, complex
+
+Sequence (sıralama) veri tipleri → list, tuple, range
+
+Mapping (haritalama) veri tipleri → dict
+
+Set veri tipleri → set, frozenset
+
+Boolean veri tipleri → bool
+
+Binary veri tipleri → bytes, bytearray, memoryview
+
+string(str): Metinsel veri tipleridir.
+numerik(sayısal): int,float,complex gibi verilerden oluşmaktadır.
+sequence(sıralama):list,tuple,range gibi verilerden oluşmaktadır.
+mapping(haritalama):dict verisinden oluşmaktadır.
+set veri tipleri: set,frozenset verilerinden oluşmaktadır.Bu veri tipleri atama yapmaktadır.
+boolean(bool) veri tipleri yani mantıksal ifadelerdir. Örneğin;true,false
+ikili veri tipleri:bytes,bytearray,memoryview
+
+
+# 2) Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+
+#öncelikle değişkenin adını belirleyip adın sag tarafına atama işlemi kullanarak deger atamamız gerekiyor ( x = 3)
+#Değişkenin adını belirleyip sağ tarafına atama yapmamız gerekiyor.(x=5)
+#Yorumları örnek olarak alabiliriz.
+#Kampta yer alan ilerleme durumumuzu örnek alabiliriz.
+#Dersi izledikten sonra değerlendirme aşamasına yönlendirme yapacaktır.
+#Ödevler yapıldıysa % (true) ise ilerleme olacaktır. 
+#Ödevler yapılmadıysa % (false) sabit kalacaktır.
+#Aşamalar tamamlandıysa int % 100 olacaktır.
+
+
+
+# 3)Kodlama.io sitesinde giriş yap kısmı şart bloğuna örnek 
+
+Ad = "Kübra"
+sifre = "123789"
+durum1 = "Giris Başarılı"
+durum2 = "Giris Başarısız"
+
+if Ad == durum1 and sifre == durum1:
+    print("Siteye girişiniz yapıldı.")
+elif Ad== durum2 and sifre == durum2:
+    print("Giriş başarısız")
+else:
+    print("Ad ve şifre giriniz lütfen")
